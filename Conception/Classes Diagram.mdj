@@ -779,13 +779,22 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 645,
 											"top": 155,
+=======
+											"left": 669,
+											"top": 179,
+>>>>>>> parent of 3e1ffce... modification 3
 											"width": 166,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
+<<<<<<< HEAD
 											"text": "+Description: string",
+=======
+											"text": "+Description",
+>>>>>>> parent of 3e1ffce... modification 3
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -824,8 +833,13 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
+<<<<<<< HEAD
 									"left": 640,
 									"top": 173,
+=======
+									"left": 664,
+									"top": 197,
+>>>>>>> parent of 3e1ffce... modification 3
 									"width": 176,
 									"height": 10,
 									"autoResize": false
@@ -2413,9 +2427,363 @@
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
+<<<<<<< HEAD
 										},
 										{
 											"_type": "UMLAttributeView",
+=======
+										}
+									],
+									"visible": true,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 776,
+									"top": 393,
+									"width": 184,
+									"height": 38,
+									"autoResize": false
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAFiC3bJ+oOin3Y=",
+									"_parent": {
+										"$ref": "AAAAAAFiC3bJ94Obr1M="
+									},
+									"model": {
+										"$ref": "AAAAAAFiC3bJ9oOZ6u4="
+									},
+									"visible": true,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 776,
+									"top": 431,
+									"width": 184,
+									"height": 10,
+									"autoResize": false
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAFiC3bJ+4OjaT4=",
+									"_parent": {
+										"$ref": "AAAAAAFiC3bJ94Obr1M="
+									},
+									"model": {
+										"$ref": "AAAAAAFiC3bJ9oOZ6u4="
+									},
+									"visible": false,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 648,
+									"top": -296,
+									"width": 10,
+									"height": 10,
+									"autoResize": false
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAFiC3bJ+4OkPvQ=",
+									"_parent": {
+										"$ref": "AAAAAAFiC3bJ94Obr1M="
+									},
+									"model": {
+										"$ref": "AAAAAAFiC3bJ9oOZ6u4="
+									},
+									"visible": false,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 648,
+									"top": -296,
+									"width": 10,
+									"height": 10,
+									"autoResize": false
+								}
+							],
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": true,
+							"containerExtending": false,
+							"left": 776,
+							"top": 368,
+							"width": 184,
+							"height": 224,
+							"autoResize": false,
+							"stereotypeDisplay": "label",
+							"showVisibility": true,
+							"showNamespace": false,
+							"showProperty": true,
+							"showType": true,
+							"nameCompartment": {
+								"$ref": "AAAAAAFiC3bJ+IOcdfo="
+							},
+							"wordWrap": false,
+							"suppressAttributes": false,
+							"suppressOperations": false,
+							"suppressReceptions": true,
+							"showMultiplicity": true,
+							"showOperationSignature": true,
+							"attributeCompartment": {
+								"$ref": "AAAAAAFiC3bJ+YOh8jU="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAFiC3bJ+oOin3Y="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAFiC3bJ+4OjaT4="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAFiC3bJ+4OkPvQ="
+							}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAFiC3ykO4QJ1VA=",
+							"_parent": {
+								"$ref": "AAAAAAFElm65HFNt33E="
+							},
+							"model": {
+								"$ref": "AAAAAAFiC3ykO4QH1ro="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAFiC3ykO4QKSKc=",
+									"_parent": {
+										"$ref": "AAAAAAFiC3ykO4QJ1VA="
+									},
+									"model": {
+										"$ref": "AAAAAAFiC3ykO4QH1ro="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFiC3ykO4QLE8E=",
+											"_parent": {
+												"$ref": "AAAAAAFiC3ykO4QKSKc="
+											},
+											"visible": false,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 720,
+											"top": 160,
+											"width": 0,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"horizontalAlignment": 2,
+											"verticalAlignment": 5,
+											"wordWrap": false
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFiC3ykPIQMF2M=",
+											"_parent": {
+												"$ref": "AAAAAAFiC3ykO4QKSKc="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;1",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 557,
+											"top": 423,
+											"width": 174,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "Workout",
+											"horizontalAlignment": 2,
+											"verticalAlignment": 5,
+											"wordWrap": false
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFiC3ykPIQNVwU=",
+											"_parent": {
+												"$ref": "AAAAAAFiC3ykO4QKSKc="
+											},
+											"visible": false,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 720,
+											"top": 160,
+											"width": 73.67724609375,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "(from Model)",
+											"horizontalAlignment": 2,
+											"verticalAlignment": 5,
+											"wordWrap": false
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFiC3ykPIQOYmo=",
+											"_parent": {
+												"$ref": "AAAAAAFiC3ykO4QKSKc="
+											},
+											"visible": false,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 720,
+											"top": 160,
+											"width": 0,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"horizontalAlignment": 1,
+											"verticalAlignment": 5,
+											"wordWrap": false
+										}
+									],
+									"visible": true,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 552,
+									"top": 416,
+									"width": 184,
+									"height": 25,
+									"autoResize": false,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAFiC3ykO4QLE8E="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAFiC3ykPIQMF2M="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAFiC3ykPIQNVwU="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAFiC3ykPIQOYmo="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAFiC3ykPIQPyG0=",
+									"_parent": {
+										"$ref": "AAAAAAFiC3ykO4QJ1VA="
+									},
+									"model": {
+										"$ref": "AAAAAAFiC3ykO4QH1ro="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFiDVr8RpQj4GE=",
+											"_parent": {
+												"$ref": "AAAAAAFiC3ykPIQPyG0="
+											},
+											"model": {
+												"$ref": "AAAAAAFiDVr785QgsN8="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 557,
+											"top": 446,
+											"width": 174,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+ID",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5,
+											"wordWrap": false
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFiDVsXEJQqGHs=",
+											"_parent": {
+												"$ref": "AAAAAAFiC3ykPIQPyG0="
+											},
+											"model": {
+												"$ref": "AAAAAAFiDVsW0JQns8Q="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 557,
+											"top": 461,
+											"width": 174,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+Name",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5,
+											"wordWrap": false
+										},
+										{
+											"_type": "UMLAttributeView",
+>>>>>>> parent of 3e1ffce... modification 3
 											"_id": "AAAAAAFiDVtBtJQxrFs=",
 											"_parent": {
 												"$ref": "AAAAAAFiC3ykPIQPyG0="
@@ -2432,13 +2800,22 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 597,
 											"top": 436,
+=======
+											"left": 557,
+											"top": 476,
+>>>>>>> parent of 3e1ffce... modification 3
 											"width": 174,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
+<<<<<<< HEAD
 											"text": "+Description: string",
+=======
+											"text": "+Description",
+>>>>>>> parent of 3e1ffce... modification 3
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -2461,13 +2838,22 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 597,
 											"top": 451,
+=======
+											"left": 557,
+											"top": 491,
+>>>>>>> parent of 3e1ffce... modification 3
 											"width": 174,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
+<<<<<<< HEAD
 											"text": "+Time: dateTime",
+=======
+											"text": "+Time",
+>>>>>>> parent of 3e1ffce... modification 3
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -2490,13 +2876,22 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 597,
 											"top": 466,
+=======
+											"left": 557,
+											"top": 506,
+>>>>>>> parent of 3e1ffce... modification 3
 											"width": 174,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
+<<<<<<< HEAD
 											"text": "+PeriodMinutes: int",
+=======
+											"text": "+Period",
+>>>>>>> parent of 3e1ffce... modification 3
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -2511,8 +2906,13 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
+<<<<<<< HEAD
 									"left": 592,
 									"top": 401,
+=======
+									"left": 552,
+									"top": 441,
+>>>>>>> parent of 3e1ffce... modification 3
 									"width": 184,
 									"height": 83,
 									"autoResize": false
@@ -2535,8 +2935,13 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
+<<<<<<< HEAD
 									"left": 592,
 									"top": 484,
+=======
+									"left": 552,
+									"top": 524,
+>>>>>>> parent of 3e1ffce... modification 3
 									"width": 184,
 									"height": 10,
 									"autoResize": false
@@ -2559,8 +2964,13 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
+<<<<<<< HEAD
 									"left": 400,
 									"top": 40,
+=======
+									"left": 360,
+									"top": 80,
+>>>>>>> parent of 3e1ffce... modification 3
 									"width": 10,
 									"height": 10,
 									"autoResize": false
@@ -2583,8 +2993,13 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
+<<<<<<< HEAD
 									"left": 400,
 									"top": 40,
+=======
+									"left": 360,
+									"top": 80,
+>>>>>>> parent of 3e1ffce... modification 3
 									"width": 10,
 									"height": 10,
 									"autoResize": false
@@ -2599,8 +3014,13 @@
 							"showShadow": true,
 							"containerChangeable": true,
 							"containerExtending": false,
+<<<<<<< HEAD
 							"left": 592,
 							"top": 376,
+=======
+							"left": 552,
+							"top": 416,
+>>>>>>> parent of 3e1ffce... modification 3
 							"width": 184,
 							"height": 224,
 							"autoResize": false,
@@ -4906,6 +5326,7 @@
 							"isDerived": false,
 							"aggregation": "none",
 							"isID": false
+<<<<<<< HEAD
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4924,6 +5345,8 @@
 							"isDerived": false,
 							"aggregation": "none",
 							"isID": false
+=======
+>>>>>>> parent of 3e1ffce... modification 3
 						}
 					],
 					"isAbstract": false,
@@ -5447,6 +5870,43 @@
 						},
 						{
 							"_type": "UMLAttribute",
+<<<<<<< HEAD
+=======
+							"_id": "AAAAAAFiDVr785QgsN8=",
+							"_parent": {
+								"$ref": "AAAAAAFiC3ykO4QH1ro="
+							},
+							"name": "ID",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFiDVsW0JQns8Q=",
+							"_parent": {
+								"$ref": "AAAAAAFiC3ykO4QH1ro="
+							},
+							"name": "Name",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+>>>>>>> parent of 3e1ffce... modification 3
 							"_id": "AAAAAAFiDVtBU5QucsU=",
 							"_parent": {
 								"$ref": "AAAAAAFiC3ykO4QH1ro="
@@ -5487,7 +5947,11 @@
 							"_parent": {
 								"$ref": "AAAAAAFiC3ykO4QH1ro="
 							},
+<<<<<<< HEAD
 							"name": "PeriodMinutes",
+=======
+							"name": "Period",
+>>>>>>> parent of 3e1ffce... modification 3
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -5524,7 +5988,10 @@
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
+<<<<<<< HEAD
 							"type": "string",
+=======
+>>>>>>> parent of 3e1ffce... modification 3
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -5542,7 +6009,10 @@
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
+<<<<<<< HEAD
 							"type": "string",
+=======
+>>>>>>> parent of 3e1ffce... modification 3
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -5560,7 +6030,10 @@
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
+<<<<<<< HEAD
 							"type": "string",
+=======
+>>>>>>> parent of 3e1ffce... modification 3
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -5578,7 +6051,10 @@
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
+<<<<<<< HEAD
 							"type": "string",
+=======
+>>>>>>> parent of 3e1ffce... modification 3
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -5596,7 +6072,10 @@
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
+<<<<<<< HEAD
 							"type": "int",
+=======
+>>>>>>> parent of 3e1ffce... modification 3
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -5614,7 +6093,10 @@
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
+<<<<<<< HEAD
 							"type": "int",
+=======
+>>>>>>> parent of 3e1ffce... modification 3
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -5632,7 +6114,10 @@
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
+<<<<<<< HEAD
 							"type": "string",
+=======
+>>>>>>> parent of 3e1ffce... modification 3
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -5650,7 +6135,10 @@
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
+<<<<<<< HEAD
 							"type": "string",
+=======
+>>>>>>> parent of 3e1ffce... modification 3
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -5668,7 +6156,10 @@
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
+<<<<<<< HEAD
 							"type": "string",
+=======
+>>>>>>> parent of 3e1ffce... modification 3
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -5686,7 +6177,10 @@
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
+<<<<<<< HEAD
 							"type": "string",
+=======
+>>>>>>> parent of 3e1ffce... modification 3
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -5704,6 +6198,7 @@
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
+<<<<<<< HEAD
 							"type": "string",
 							"isReadOnly": false,
 							"isOrdered": false,
@@ -5723,6 +6218,8 @@
 							"isStatic": false,
 							"isLeaf": false,
 							"type": "string",
+=======
+>>>>>>> parent of 3e1ffce... modification 3
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -5755,7 +6252,10 @@
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
+<<<<<<< HEAD
 							"type": "string",
+=======
+>>>>>>> parent of 3e1ffce... modification 3
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -5773,7 +6273,10 @@
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
+<<<<<<< HEAD
 							"type": "string",
+=======
+>>>>>>> parent of 3e1ffce... modification 3
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -5791,6 +6294,7 @@
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
+<<<<<<< HEAD
 							"type": "string",
 							"isReadOnly": false,
 							"isOrdered": false,
@@ -5951,6 +6455,8 @@
 							"isStatic": false,
 							"isLeaf": false,
 							"type": "",
+=======
+>>>>>>> parent of 3e1ffce... modification 3
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
