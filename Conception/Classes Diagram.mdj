@@ -2559,8 +2559,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 952,
-									"top": 16,
+									"left": 1008,
+									"top": 144,
 									"width": 10,
 									"height": 10,
 									"autoResize": false
@@ -2583,8 +2583,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 952,
-									"top": 16,
+									"left": 1008,
+									"top": 144,
 									"width": 10,
 									"height": 10,
 									"autoResize": false
