@@ -1,0 +1,104 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    background-color: #d4d4d4
+}
+
+.navbar {
+    background-color: transparent;
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom: 0px;
+}
+
+.signUpButton {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 50px;
+    margin-top: 7px;
+    margin-right: -23px;
+    text-align: center;
+}
+
+.signInButton {
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 120px;
+    height: 50px;
+    margin-top: 7px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.Sign_Up {
+    font-size: 17px;
+    font-family: "Century Gothic";
+    color: rgb(37, 118, 252);
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+
+.navbar-brand {
+    font-size: 25px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+
+.link, .linkLast {
+    height: 48px;
+    margin-top: 7px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+}
+
+.navbarAndTitleHousingContainer{
+    height: 350px;
+    background-color: 
+}
+
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.LinkOne {
+    margin-right: 50px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="select"] {
+    max-width: 280px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}
