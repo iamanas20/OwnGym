@@ -43,6 +43,16 @@ body {
     text-align: center;
 }
 
+.signUpButton:hover {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 40px;
+    margin-top: 12px;
+    margin-right: -23px;
+    text-align: center;
+}
+
 .signInButton {
     border-radius: 10px;
     border: 2px solid rgb(255, 255, 255);
