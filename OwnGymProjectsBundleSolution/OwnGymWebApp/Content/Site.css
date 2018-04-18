@@ -15,8 +15,8 @@ body {
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     width: 120px;
-    height: 50px;
-    margin-top: 7px;
+    height: 40px;
+    margin-top: 12px;
     margin-right: -23px;
     text-align: center;
 }
@@ -25,10 +25,11 @@ body {
     border-radius: 10px;
     border: 2px solid rgb(255, 255, 255);
     width: 120px;
-    height: 50px;
-    margin-top: 7px;
+    height: 40px;
+    margin-top: 12px;
     text-align: center;
     margin-right: 30px;
+    margin-left: 10px;
 }
 
 .Sign_Up {
@@ -37,6 +38,7 @@ body {
     color: rgb(37, 118, 252);
     font-weight: bold;
     line-height: 1.2;
+    margin-top: -8px;
 }
 
 
@@ -47,6 +49,11 @@ body {
     font-weight: bold;
     line-height: 1.2;
 }
+
+    .navbar-brand > span {
+        color: white;
+        margin-left: -15px;
+    }
 
 
 .link, .linkLast {
@@ -59,9 +66,13 @@ body {
     line-height: 1.2;
 }
 
-.navbarAndTitleHousingContainer{
-    height: 350px;
-    background-color: 
+    .link span, .linkLast span {
+        color: white;
+    }
+
+.navbarAndTitleHousingContainer {
+    height: 450px;
+    background-image: linear-gradient(to bottom, #25aefc, #23b4fc, #26b9fc, #2ebffb, #37c4fa);
 }
 
 
@@ -100,5 +111,82 @@ input[type="select"] {
 
     .body-content {
         padding: 0;
+    }
+}
+
+@media only screen and (max-width : 991px) {
+    .link span, .linkLast span {
+        font-size: 15px;
+        padding: 0 0 0 0;
+    }
+
+    .link, .linkLast {
+        height: 48px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    .navbar-brand span {
+        margin-left: 0px;
+    }
+}
+
+
+@media only screen and (max-width : 1200px) {
+    .navbar-brand span {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width : 765px) {
+    .link span, .linkLast span {
+        font-size: 20px;
+    }
+
+    .link, .linkLast, .navbar, .navbar-collapse, .navbar-right {
+        margin-right: 0px;
+    }
+
+    .signUpButton {
+        width: 50%;
+        margin: 0 0 0 0;
+        margin-top: 15px;
+        margin-left: 25%;
+        margin-bottom: 30px;
+    }
+
+    .signInButton {
+        width: 50%;
+        margin: 0 0 0 0;
+        margin-top: 15px;
+        margin-left: 25%;
+    }
+
+    .Sign_Up {
+        font-size: 17px;
+        font-family: "Century Gothic";
+        color: rgb(37, 118, 252);
+        font-weight: bold;
+        line-height: 1.2;
+        margin-top: -2px;
+    }
+
+    .navbar {
+        border-bottom: 0px;
+    }
+
+    .navbar-collapse {
+        border: 0px;
+        max-height: 1000px;
+    }
+
+    .navbar-collapse {
+        background-image: linear-gradient(to left bottom, #25aefc, #37acf9, #44a9f5, #4ea7f2, #56a5ee);
+    }
+
+
+
+    .navbar-right li {
+        text-align: center;
     }
 }
