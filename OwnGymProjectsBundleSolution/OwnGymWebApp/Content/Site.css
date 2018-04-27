@@ -1,6 +1,7 @@
 ﻿/* Move down content because we have a fixed navbar that is 50px tall */
 body {
-    background-color: #d4d4d4
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
 }
 
 .navbar {
@@ -16,7 +17,7 @@ body {
     margin-top: 8px;
 }
 
-.navbar-default .navbar-toggle:hover{
+.navbar-default .navbar-toggle:hover {
     background-color: rgba(255, 255, 255, 0.21);
 }
 
@@ -43,15 +44,15 @@ body {
     text-align: center;
 }
 
-.signUpButton:hover {
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
-    width: 120px;
-    height: 40px;
-    margin-top: 12px;
-    margin-right: -23px;
-    text-align: center;
-}
+    .signUpButton:hover {
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        width: 120px;
+        height: 40px;
+        margin-top: 12px;
+        margin-right: -23px;
+        text-align: center;
+    }
 
 .signInButton {
     border-radius: 10px;
@@ -87,7 +88,6 @@ body {
         margin-left: -15px;
     }
 
-
 .link, .linkLast {
     height: 48px;
     margin-top: 7px;
@@ -103,8 +103,264 @@ body {
     }
 
 .navbarAndTitleHousingContainer {
-    height: 450px;
-    background-image: linear-gradient(to bottom, #25aefc, #23b4fc, #26b9fc, #2ebffb, #37c4fa);
+    height: 300px;
+    background-image: linear-gradient(to left top, #3e89fb, #00a0ff, #00b5ff, #10c9ff, #53daff);
+}
+
+.pageTitle {
+    font-size: 40px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.phoneImageDiv {
+    max-width: 400px;
+    width: 70%;
+    margin-left: 20%;
+}
+
+.aboutContainer{
+    margin-top: 100px;
+}
+
+.textCol{
+    margin-top: 30px;
+}
+
+.Take_a_look__around_our_apps {
+    font-family: "Century Gothic";
+    color: rgb(37, 119, 252);
+    font-weight: bold;
+}
+
+.We_re_a_passionate_team_dedicated_to_health_and {
+    font-size: 16px;
+    font-family: "Century Gothic";
+    color: rgb(156, 162, 173);
+    font-weight: bold;
+}
+
+.phoneWithCalendarImageDiv {
+    width: 100%;
+    max-width: 400px;
+}
+
+.notTheFirstContainer {
+    margin-top: 150px;
+}
+
+.ourTeamTextCol{
+    margin-top: 100px;
+}
+
+#card {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin: 10% auto;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2), 0px 2px 6px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+#blur {
+    background-size: cover;
+    width: 200px;
+    height: 330px;
+    position: relative;
+    top: -15px;
+    left: -15px;
+    border-radius: 8px;
+    -webkit-filter: blur(8px);
+    -moz-filter: blur(8px);
+    filter: blur(8px);
+}
+
+#color {
+    background: rgba(255, 255, 255, .60);
+    width: 430px;
+    height: 430px;
+}
+
+#profile {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: -330px;
+    border-radius: 8px;
+}
+
+#card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    position: relative;
+    top: 32px;
+    display: block;
+    margin: 0 auto;
+    -webkit-filter: sepia(.25);
+    -moz-filter: sepia(.25);
+    filter: sepia(.25);
+}
+
+#card h1 {
+    color: rgba(38, 50, 56, 1);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: 48px;
+}
+
+#card p {
+    color: rgba(38, 50, 56, .87);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: 56px;
+}
+
+#card a {
+    color: rgba(255, 255, 255, 1);
+    transition: color 0.4s;
+    text-decoration: none;
+}
+
+    #card a:hover {
+        color: rgba(255, 255, 255, .70);
+        transition: color 0.4s;
+    }
+
+.info {
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 86px;
+    background: rgba(38, 50, 56, 1);
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+    background-position: center center;
+    background-size: cover;
+    transition: all 0.2s ease;
+    z-index: 0;
+}
+
+    .info.active {
+        width: 100%;
+        height: 200%;
+        position: relative;
+        top: -100%;
+        background: rgba(38, 50, 56, 1);
+        transition: width .1s ease, height .2s ease, top .2s ease, z-index .2s ease;
+        z-index: 999;
+    }
+
+    .info i.block {
+        color: rgba(255, 255, 255, .6);
+        display: block;
+    }
+
+    .info .fa-info {
+        padding: 8px;
+        cursor: pointer;
+        visibility: visible;
+        opacity: 1;
+        transition: visibility 0s, opacity 0.4s ease;
+    }
+
+    .info.active .fa-info {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.4s ease;
+    }
+
+    .info .fa-angle-down {
+        cursor: pointer;
+        visibility: hidden;
+    }
+
+    .info.active .fa-angle-down {
+        position: relative;
+        margin: 0 auto;
+        width: 24px;
+        height: 24px;
+        padding: 4px;
+        visibility: visible;
+        position: relative;
+        top: 128px;
+        animation-name: visible;
+        animation-duration: 0.3s;
+    }
+
+@keyframes visible {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.info p {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    line-height: 110%;
+    font-weight: 400;
+    text-align: center;
+    padding: 24px;
+    position: relative;
+    top: 144px;
+    visibility: hidden;
+}
+
+.info.active p {
+    visibility: visible;
+    animation-name: entrance-first;
+    animation-duration: 0.4s;
+}
+
+.info .link {
+    visibility: hidden;
+    margin: 24px 24px 0px 24px;
+    padding: 16px 4px 4px 4px;
+    cursor: pointer;
+    position: relative;
+    top: 144px;
+}
+
+.info.active .link {
+    visibility: visible;
+    animation-name: entrance-second;
+    animation-duration: 0.5s;
+}
+
+@keyframes entrance-first {
+    0% {
+        top: 200px;
+    }
+
+    100% {
+        top: 144px;
+    }
+}
+
+@keyframes entrance-second {
+    0% {
+        top: 200px;
+    }
+
+    100% {
+        top: 144px;
+    }
 }
 
 
@@ -146,7 +402,9 @@ input[type="select"] {
     }
 }
 
+
 @media only screen and (max-width : 991px) {
+
     .link span, .linkLast span {
         font-size: 15px;
         padding: 0 0 0 0;
@@ -160,6 +418,15 @@ input[type="select"] {
 
     .navbar-brand span {
         margin-left: 0px;
+    }
+
+    .phoneImageDiv {
+        margin-top: 50px;
+        margin-left: 12%
+    }
+
+    .phoneWithCalendarImageDiv {
+        margin-left: 10%;
     }
 }
 
@@ -215,8 +482,6 @@ input[type="select"] {
     .navbar-collapse {
         background-image: linear-gradient(to left bottom, #25aefc, #37acf9, #44a9f5, #4ea7f2, #56a5ee);
     }
-
-
 
     .navbar-right li {
         text-align: center;
