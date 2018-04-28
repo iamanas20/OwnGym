@@ -1,0 +1,896 @@
+body{
+  font-size: 16px;
+  font-family: 'Century Gothic';
+  margin: 0;
+    padding: 0;
+    border: 0;
+
+
+    vertical-align: baseline;
+}
+
+
+.header{
+  background: url('../Assets/background header.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  min-height: 815px;
+  /*  max-height: 815px;
+    margin-left:-10px;
+    margin-top: -10px;
+    margin-right: -10px;*/
+}
+
+.header-container
+{
+    margin-left: 50px;
+}
+.header-content > ul li{
+  display: inline-block;
+  list-style:none;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+.header-sections > li
+{
+  padding-left: 50px;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.header-nav-bar{
+  position: absolute;
+  display: inline-flex;
+  float: right;
+}
+
+.header-logo{
+  font-weight: 600;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+
+}
+.header-title{
+  font-size: 55px;
+  margin-right: 50%;
+}
+
+.header-titles > h4{
+    margin-right: 55%
+}
+
+.header-titles{
+  margin-top: 100px;
+  display: inline-grid;
+}
+
+.header-content{
+  display: flex;
+  margin-top: 10px;
+  margin-left: 350px;
+}
+
+.header-button-section > li{
+
+  padding-left: 20px;
+
+}
+
+.header-login{
+
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 12px;
+  padding: 5px 20px 5px 20px ;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: right;
+  font-size: 17px;
+}
+
+.header-signin
+{
+  font-size: 17px;
+  color: rgb(37, 118, 252);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: right;
+  border-radius: 12px;
+  background-color: rgb(255, 255, 255);
+  padding: 7px 22px 7px 22px ;
+
+}
+
+.header-logo{
+  margin-top: 25px;
+  position: absolute;
+}
+
+.header-button-get{
+  display: inline-table;
+  margin-top: 30px;
+}
+.header-button-get-started{
+
+  font-size: 25px;
+  padding: 12px 17px 12px 17px ;
+  color: rgb(37, 118, 252);
+  font-weight: bold;
+  line-height: 1.2;
+  border-radius: 12px;
+  background-color: rgb(255, 255, 255);
+
+
+
+}
+
+.header-button-get-app{
+  font-size: 25px;
+  padding: 12px 30px 12px 30px ;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  border-radius: 12px;
+  background-image: -moz-linear-gradient( 45deg, rgb(106,17,203) 0%, rgb(37,157,252) 100%);
+  background-image: -webkit-linear-gradient( 45deg, rgb(106,17,203) 0%, rgb(37,157,252) 100%);
+  background-image: -ms-linear-gradient( 45deg, rgb(106,17,203) 0%, rgb(37,157,252) 100%);
+  margin-left: 20px;
+  box-shadow: 0px 20px 35px -20px rgba(96, 37, 210, 1);
+
+}
+
+.header-button-get-app:hover {
+  box-shadow: 0px 20px 35px 0px rgba(96, 37, 210, 0.3);
+  transition: 0.3s;
+}
+
+.header-button-get-started:hover{
+  box-shadow: 0px 20px 35px 0px rgba(96, 37, 210, 0.3);
+  transition: 0.3s;
+}
+
+
+
+
+/*.header-button-get-shadow{
+  box-shadow: 0px 18px 31.5px 3.5px rgba(96, 37, 210, 0.63);
+  position: absolute;
+  left: 270px;
+  top: 520px;
+  width: 100px;
+  height: 30px;
+}*/
+
+.header-title-point{
+  display: none;
+}
+@media screen and (max-width: 1000px) {
+  .header-content > ul li{
+    display: block;
+    padding-top: 25px;
+  }
+
+
+  .header-content{
+    display: flex;
+    margin-top: -10px;
+    margin-left: 500px;
+    text-align: center;
+
+  }
+
+
+
+  .header-title{
+    font-size: 35px;
+  }
+  .header-title-continu{
+    display: none;
+  }
+  .header-title-point{
+    display: inline-grid;
+  }
+}
+
+.about-owngym
+{
+  margin-top: 180px;
+
+}
+
+.title-about-owngym{
+
+    font-size: 40px;
+    font-family: "Century Gothic";
+    color: rgb(37, 119, 252);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.about-owngym-content{
+  margin-left: 120px;
+  margin-top: 100px;
+}
+.about-owngym-content > h2{
+
+  font-size: 30px;
+  font-family: "Century Gothic";
+  color: rgb(37, 119, 252);
+  font-weight: bold;
+  line-height: 1.2;
+
+}
+
+.about-wongym-shape{
+  background-color: rgb(37, 119, 252);
+  position: absolute;
+  width: 80px;
+  height: 2px;
+
+}
+.about-owngym-content {
+  margin-top: 10px;
+}
+.about-owngym-content > p{
+
+    font-size: 20px;
+    font-family: "Century Gothic";
+    color: rgb(156, 162, 173);
+    font-weight: bold;
+    line-height: 1.2;
+    position: absolute;
+    width: 438px;
+    height: 112px;
+}
+
+.about-owngym-image{
+  margin-left: 700px;
+  margin-top: -30px;
+}
+
+.Choose-workout-schedule{
+  display: flex;
+
+}
+.Choose-workout-schedule-title {
+  font-size: 50px;
+  font-family: "Century Gothic";
+  color: rgb(40, 120, 252);
+  font-weight: bold;
+  line-height: 1.2;
+
+
+}
+
+.Choose-workout-schedule-content{
+  margin-left: 30px;
+  margin-top: 150px;
+}
+
+.Choose-workout-schedule-content > p {
+
+  font-size: 15px;
+  font-family: "Century Gothic";
+  color: rgb(156, 162, 173);
+  font-weight: bold;
+  line-height: 1.2;
+
+
+}
+.Choose-workout-schedule-get-started-button{
+
+  border-radius: 12px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 10px 33.25px -1px rgba(20, 56, 116, 0.3);
+  font-size: 25px;
+  font-family: "Century Gothic";
+  color: rgb(37, 118, 252);
+  font-weight: bold;
+  line-height: 1.2;
+  padding: 13px 22px 13px 22px ;
+
+}
+
+.Choose-workout-schedule-get-started-button:hover{
+  box-shadow: 0px 10px 33.25px 5px rgba(20, 56, 116, 0.3);
+  transition: 0.3s;
+}
+
+.workout-features-title{
+  font-size: 55px;
+  font-family: "Century Gothic";
+  color: rgb(37, 119, 252);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.workout-features-sections{
+  vertical-align: middle;
+
+}
+.workout-features-sections > ul li{
+  display: inline-block;
+  list-style:none;
+
+}
+
+.workout-features-norution {
+  transition: 0.2s;
+  border-radius: 50%;
+  border: 5px rgba(99, 32, 208, 0.5) solid;
+}
+
+.workout-features-norution:hover {
+  transition: 0.2s;
+  box-shadow: 0px 10px 33.25px 5px rgba(99, 32, 208, 0.2);
+
+}
+
+
+.workout-features-arrow[data-num="1"]{
+
+  background-color: rgb(99, 32, 208);
+position: absolute;
+  width: 5px;
+  height: 142px;
+  margin-left: -4px;
+  margin-top: -12px;
+
+
+}
+
+.workout-features-article-container-norution{
+  /*display: none;*/
+}
+
+.workout-features-article-container-norution > h4{
+  font-size: 30px;
+  font-family: "Century Gothic";
+  color: rgb(99, 32, 208);
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 150px;
+
+}
+
+
+.workout-features-article-container-norution  > pre{
+  /*margin: -10px 400px 0px 520px;*/
+  text-align: left;
+  font-size: 15px;
+  font-family: "Century Gothic";
+  color: rgb(156, 162, 173);
+  font-weight: bold;
+  line-height: 1.2;
+
+}
+
+.workout-features-article-container-fat  > pre{
+  /*margin: -10px 400px 0px 520px;*/
+  text-align: left;
+  font-size: 15px;
+  font-family: "Century Gothic";
+  color: rgb(156, 162, 173);
+  font-weight: bold;
+  line-height: 1.2;
+
+}
+.workout-features-article-container-gym > pre{
+ /*margin: -10px 400px 0px 520px;*/
+
+ text-align: left;
+ font-size: 15px;
+ font-family: "Century Gothic";
+ color: rgb(156, 162, 173);
+ font-weight: bold;
+ line-height: 1.2;
+
+}
+
+.workout-features-section[data-num="2"]{
+  padding: 0px 200px 0px 200px;
+}
+
+
+.workout-features-gym {
+  transition: 0.2s;
+  border-radius: 50%;
+  border: 5px rgba(37, 118, 252, 0.5) solid;
+}
+
+.workout-features-gym:hover {
+  transition: 0.2s;
+  box-shadow: 0px 10px 33.25px 5px rgba(37, 118, 252, 0.2);
+
+}
+.workout-features-article-container-gym > h4{
+  font-size: 30px;
+  font-family: "Century Gothic";
+  color: rgb(37, 118, 252);
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 150px;
+
+}
+
+.workout-features-arrow[data-num="2"]{
+
+  background-color: rgb(37, 118, 252);
+position: absolute;
+  width: 5px;
+  height: 142px;
+  margin-left: -4px;
+  margin-top: -12px;
+
+
+}
+
+.workout-features-fat {
+  transition: 0.2s;
+  border-radius: 50%;
+  border: 5px rgba(37, 188 ,252, 0.5) solid;
+}
+.workout-features-fat:hover {
+  transition: 0.2s;
+  box-shadow: 0px 10px 33.25px 5px rgba(37, 188 ,252, 0.2);
+
+}
+.workout-features-article-container-fat > h4{
+  font-size: 30px;
+  font-family: "Century Gothic";
+  color: rgb(37, 188 ,252);
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 150px;
+
+}
+.workout-features-arrow[data-num="3"]{
+
+  background-color: rgb(37, 188 ,252);
+position: absolute;
+  width: 5px;
+  height: 142px;
+  margin-left: -4px;
+  margin-top: -12px;
+}
+
+.activity-exercice{
+  background: url('../Assets/backgroun activoty exercices.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  min-height: 1024px;
+}
+
+/*.activity-exercice-title{
+  margin-top:180px;
+  position: absolute;
+}*/
+
+.activity-exercice-title > h1{
+  font-size: 55px;
+  font-family: "Century Gothic";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.activity-exercice-section-Nutrition-Weight{
+  position: absolute;
+  margin-top: 20px;
+}
+
+.activity-exercice-section-Nutrition-Weight-content > h2{
+
+  font-size: 25px;
+  font-family: "Century Gothic";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: right;
+margin-left: 180px;
+}
+
+.activity-exercice-section-Nutrition-Weight-content > pre{
+
+    font-size: 20px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: right;
+    margin-top: -10px;
+    position: absolute;
+}
+
+.activity-exercice-section-Nutrition-Weight-image > a{
+
+    padding-left: 20px;
+    padding-top: 30px;
+    position: absolute;
+}
+
+.activity-exercice-section-Nutrition-Weight > div[data-num="1"]{
+  display: table-cell;
+}
+
+.activity-exercice-section-Nutrition-Weight-arrow > img{
+  margin-left: 480px;
+  margin-top: 85px;
+}
+
+.activity-exercice-section-location-content > h2{
+
+  font-size: 25px;
+  font-family: "Century Gothic";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: right;
+margin-left: 168px;
+}
+
+.activity-exercice-section-location-content > pre{
+
+    font-size: 20px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: right;
+    margin-top: -10px;
+    position: absolute;
+}
+
+.activity-exercice-section-location-image > a{
+
+    padding-left: 20px;
+    padding-top: 30px;
+    position: absolute;
+}
+
+.activity-exercice-section-location > div[data-num="1"]{
+  display: table-cell;
+}
+
+.activity-exercice-section-location-arrow > img{
+  margin-left: 90px;
+  margin-bottom: -25px;
+}
+
+
+.activity-exercice-section-goals-content > h2{
+
+  font-size: 25px;
+  font-family: "Century Gothic";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: right;
+margin-left: 310px;
+}
+
+.activity-exercice-section-goals-content > pre{
+
+    font-size: 20px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: right;
+    margin-top: -10px;
+    position: absolute;
+}
+
+.activity-exercice-section-goals-image > a{
+
+    padding-left: 20px;
+    padding-top: 30px;
+    position: absolute;
+}
+
+.activity-exercice-section-goals > div[data-num="1"]{
+  display: table-cell;
+}
+
+.activity-exercice-section-goals-arrow > img{
+  margin-left: 50px;
+  margin-bottom: -120px;
+}
+
+.activity-exercice-section-exercice-content > h2{
+
+  font-size: 25px;
+  font-family: "Century Gothic";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: right;
+margin-left: 260px;
+}
+
+.activity-exercice-section-exercice-content > pre{
+
+    font-size: 20px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: right;
+    margin-top: -10px;
+    position: absolute;
+}
+
+.activity-exercice-section-exercice-image > a{
+
+    padding-left: 20px;
+    padding-top: 30px;
+    position: absolute;
+}
+
+.activity-exercice-section-exercice{
+  margin-left: 150px;
+}
+.activity-exercice-section-exercice > div[data-num="1"]{
+  display: table-cell;
+
+}
+
+.activity-exercice-section-exercice-arrow > img{
+  margin-left: 50px;
+  margin-top: -250px;
+}
+
+.activity-exercice-section-statistique-content > h2{
+
+  font-size: 25px;
+  font-family: "Century Gothic";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: right;
+margin-left: 100px;
+}
+
+.activity-exercice-section-statistique-content > pre{
+
+    font-size: 20px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: right;
+    margin-top: -10px;
+    position: absolute;
+}
+
+.activity-exercice-section-statistique-image > a{
+
+    padding-left: 20px;
+    padding-top: 30px;
+    position: absolute;
+}
+
+.activity-exercice-section-statistique{
+  margin-left: 300px;
+  margin-top: -100px;
+  margin-left: 690px;
+}
+.activity-exercice-section-statistique > div[data-num="1"]{
+  display: table-cell;
+
+}
+
+.activity-exercice-section-statistique-arrow > img{
+  margin-left: 50px;
+    margin-top: -100px;
+}
+
+/*.display-activity  > div[data-num="1"]{
+  display: inline-flex;
+}*/
+
+.activity-exercice-mockup > img{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 610px;
+
+}
+
+.activity-exercice-mockup{
+  z-index: 0;
+}
+.activity-exercice-section{
+  z-index: 2;
+  position: absolute;
+}
+
+.workout-plan-title > h1 {
+
+  font-size: 55px;
+  font-family: "Century Gothic";
+  color: rgb(37, 119, 252);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+
+}
+
+.workout-plan-cards >ul li{
+  list-style: none;
+  display: inline-block;
+  margin: -3px;
+}
+
+.workout-plan-cards > ul > li[data-num="1"]
+{
+  background: url('../Assets/premuim plan.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 330px;
+  height: 560px;
+  z-index: 4;
+}
+
+.workout-plan-cards> ul > li[data-num="2"]
+{
+
+  background: url('../Assets/Most populer plan.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 330px;
+  height: 560px;
+    box-shadow: 9px 9px 90px 5px rgba(96, 37, 210, 0.5);
+    position: absolute;
+    z-index: 5;
+    margin-top: 2px;
+}
+
+
+.workout-plan-cards > ul > .premium{
+  margin-left: 320px;
+}
+
+.workout-plan-cards > ul > li[data-num="1"] > h3
+{
+
+
+font-size: 20px;
+font-family: "Century Gothic";
+color: rgb(98, 34, 209);
+font-weight: bold;
+text-transform: uppercase;
+line-height: 1.2;
+text-align: center;
+
+
+}
+
+.workout-plan-cards > ul > li[data-num="1"] > h2
+{
+
+    font-size: 40px;
+    font-family: "Century Gothic";
+    color: rgb(98, 34, 209);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+
+}
+
+.workout-plan-cards > ul > li[data-num="1"] > a {
+
+  border-radius: 10px;
+  background-image: -moz-linear-gradient( 45deg, rgb(106,17,203) 0%, rgb(37,157,252) 100%);
+  background-image: -webkit-linear-gradient( 45deg, rgb(106,17,203) 0%, rgb(37,157,252) 100%);
+  background-image: -ms-linear-gradient( 45deg, rgb(106,17,203) 0%, rgb(37,157,252) 100%);
+  width: 184px;
+  height: 64px;
+    font-size: 24px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+  padding: 12px 30px 12px 30px ;
+  box-shadow: 0px 18px 25px -5px rgba(96, 37, 210, 0.63);
+}
+
+.workout-plan-cards > ul > li[data-num="2"] > h3
+{
+
+
+font-size: 20px;
+font-family: "Century Gothic";
+color: rgb(255, 255, 255);
+font-weight: bold;
+text-transform: uppercase;
+line-height: 1.2;
+text-align: center;
+
+
+}
+
+.workout-plan-cards > ul > li[data-num="2"] > h2
+{
+
+    font-size: 40px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+
+}
+
+.workout-plan-cards > ul > li[data-num="2"] > a {
+
+  border-radius: 10px;
+background-color: #ffffff;
+ width: 184px;
+  height: 64px;
+    font-size: 24px;
+    font-family: "Century Gothic";
+    color: #357df0;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+  padding: 12px 30px 12px 30px ;
+  box-shadow: 0px 20px 50px -3px rgba(0, 0, 210, 0.63);
+}
+
+.workout-plan-cards > ul > li[data-num="2"] > a:hover {
+
+  box-shadow: 0px 20px 60px -3px rgba(0, 0, 210, 0.63);
+  transition: 0.3s;
+}
+
+.workout-plan-cards > ul > li[data-num="1"] > a:hover {
+  transition: 0.3s;
+  box-shadow: 0px 20px 60px -3px rgba(0, 0, 210, 0.63);
+}
+
+.get-owngym-app {
+  background: url('../Assets/backgroun get app.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 383px;
+
+}
+
+.get-owngym-app {
+  padding-top: 50px;
+}
+
+.get-owngym-app > h2 {
+
+  font-size: 30px;
+  font-family: "Century Gothic";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  margin-left: 400px;
+}
+
+
+.get-owngym-app > p {
+
+    font-size: 15px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    margin-left: 700px;
+    margin-right: 300px;
+}
+
+.get-owngym-app > img{
+  box-shadow: 0px 20px 30px 3px rgba(41 ,95 ,185 0.8);
+}
+
+.get-owngym-app > a {
+  margin-left: 700px;
+}
