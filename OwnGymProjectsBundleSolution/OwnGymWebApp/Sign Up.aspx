@@ -33,7 +33,7 @@
           <td> F <input type="radio" name="" value="" id="femmel"></td>
         </tr>
     </table>
-    <input type="button" name="previous" class="previous action-button" value="Previous" />
+    <input type="button" name="previous" class="previous action-button" disabled value="Previous" />
     <input type="button" name="next" class="next action-button" value="Next" />
   </fieldset>
   <fieldset>
@@ -43,7 +43,7 @@
     <input type="text" name="Country"  placeholder="Country">
     <input type="text" name="City"  placeholder="City">
     <input type="text" name="Zip Code"  placeholder="Zip Code">
-    <input name="Adresse Line" placeholder="Address"></input>
+    <input name="Adresse Line" placeholder="Address">
     <input type="button" name="previous" class="previous action-button" value="Previous" />
     <input type="button" name="next" class="next action-button" value="Next" />
 
