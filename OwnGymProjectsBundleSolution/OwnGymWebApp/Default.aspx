@@ -3,7 +3,6 @@
 <link rel="stylesheet" href="Content\Stylelandingpage.css">
 <body>
 
-
     <div class="header">
         <div class="header-container">
             <a href="#" class="header-logo">Own Gym</a>
