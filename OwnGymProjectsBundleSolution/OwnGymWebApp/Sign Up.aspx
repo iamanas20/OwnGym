@@ -1,11 +1,27 @@
-﻿<%@ Page Title="Home Page" Language="C#" AutoEventWireup="true" CodeBehind="Sign Up.aspx.cs" Inherits="OwnGymWebApp._Default" %>
+﻿<%@ Page Title="Home Page" Language="C#"  MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Sign Up.aspx.cs" Inherits="OwnGymWebApp._Default" %>
 
-<link rel="stylesheet" href="Content/signupstyle.css">
-<body>
+<asp:Content ID="Content1" ContentPlaceHolderID="TitlePlaceHolder" runat="server">
+    <h1 class="pageTitle">Sign Up</h1>
+</asp:Content>
+    
+
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+
         
-  <!-- multistep form -->
+        <link rel="stylesheet" href="Content\signupstyle.css">
+ 
+
+              <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+  
 <form id="msform">
-  <!-- progressbar -->
+
   <center>
   <ul id="progressbar">
     <li class="active">Account Setup</li>
@@ -14,7 +30,7 @@
     <li>Personal Details</li>
   </ul>
 </center>
-  <!-- fieldsets -->
+
 
     <fieldset class="personal">
     <h2 class="fs-title">Personal Details</h2>
@@ -75,6 +91,4 @@
 
     <script  src="Scripts/signup.js"></script>
 
-
-
-</body>
+    </asp:Content>
