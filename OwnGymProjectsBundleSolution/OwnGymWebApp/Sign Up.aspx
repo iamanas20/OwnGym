@@ -1,27 +1,22 @@
-﻿<%@ Page Title="Home Page" Language="C#"  MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Sign Up.aspx.cs" Inherits="OwnGymWebApp._Default" %>
+﻿<%@ Page Title="Home Page" Language="C#" AutoEventWireup="true" CodeBehind="Sign Up.aspx.cs" Inherits="OwnGymWebApp._Default" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="TitlePlaceHolder" runat="server">
-    <h1 class="pageTitle">Sign Up</h1>
-</asp:Content>
-    
-
-<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-
-        
-        <link rel="stylesheet" href="Content\signupstyle.css">
- 
-
-              <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
+<link rel="stylesheet" href="Content/signupstyle.css">
+<body>
+        <div class="header">
+  <a href="#"> <img src="Assets\logo-signup-signin.png" alt=""> </a>    
+  </tr>
+</div>
   
-<form id="msform">
+    <div class="signup-with-fb">
 
+    <a href="#" class="signup-fb">
+      Sign up with Facebook
+    </a>
+    </div>
+    
+  <!-- multistep form -->
+<form id="msform">
+  <!-- progressbar -->
   <center>
   <ul id="progressbar">
     <li class="active">Account Setup</li>
@@ -30,7 +25,7 @@
     <li>Personal Details</li>
   </ul>
 </center>
-
+  <!-- fieldsets -->
 
     <fieldset class="personal">
     <h2 class="fs-title">Personal Details</h2>
@@ -79,6 +74,9 @@
     <input type="text" name="email" placeholder="Email" />
     <input type="password" name="pass" placeholder="Password" />
     <input type="password" name="cpass" placeholder="Confirm Password" />
+    <br>
+    <label for="submit" id="terms-condition-signup">By clicking on Sign up, you agree to Own Gym's <span><a href="#">terms & conditions</a></span> and <span><a href="#">privacy policy </a> </span> </label>
+    <br>
     <input type="button" name="previous" class="previous action-button" value="Previous" />
     <input type="submit" name="submit" class="submit action-button" value="Submit" />
 
@@ -91,4 +89,6 @@
 
     <script  src="Scripts/signup.js"></script>
 
-    </asp:Content>
+
+
+</body>
