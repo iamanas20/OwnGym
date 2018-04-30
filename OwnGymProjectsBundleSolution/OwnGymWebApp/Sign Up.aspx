@@ -7,10 +7,7 @@
   </tr>
 </div>
   
-<<<<<<< HEAD
-=======
 
->>>>>>> master
     <div class="signup-with-fb">
 
     <a href="#" class="signup-fb">
