@@ -14,7 +14,15 @@
       Sign up with Facebook
     </a>
     </div>
-    
+    <br>
+      <br>
+      <br>
+      <div class="">
+      <center>
+      <h3 style="text-align:center; color:gray;">Or</h3>
+    </center>
+    </div>
+  
   <!-- multistep form -->
 <form id="msform">
   <!-- progressbar -->
