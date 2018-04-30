@@ -13,6 +13,22 @@ body {
 	font-family: Century Gothic;
 }
 
+.header {
+    background-color: white;
+    text-align: center;
+}
+
+
+.header > a > img {
+    height: 73px;
+    width: 197px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+    
+
+
 #msform {
 	width: 700px;
 	margin: 50px auto;
@@ -129,4 +145,41 @@ body {
 	color: white;
 	box-shadow: 0px 1px 15px -1px rgba(20, 56, 116, 0.3);
 
+}
+
+#terms-condition-signup {
+    text-align: left;
+    display: block;
+    color: grey;
+}
+
+    #terms-condition-signup > span {
+        font-weight: bold;
+        color: #357df0;
+    }
+
+    #terms-condition-signup > span > a {
+        text-decoration:none;
+    }
+
+.signup-fb {
+    color: #fff;
+    background-color: #3b5998;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 20px;
+    padding: 16px 48px 18px;
+    transition-duration: .3s;
+    border-width: 0;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    text-decoration:none;
+}
+
+.signup-with-fb {
+    display:block;
+    text-align: center;
+    margin-top: 70px;
 }
