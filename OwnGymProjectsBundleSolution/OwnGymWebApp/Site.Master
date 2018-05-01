@@ -91,9 +91,7 @@
         </div>
 
         <div class="container">
-            <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
-            </footer>
+
         </div>
     </form>
 </body>
