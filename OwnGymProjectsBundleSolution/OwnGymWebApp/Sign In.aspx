@@ -4,7 +4,7 @@
 <body>
         <div class="header">
   <a href="#"> <img src="Assets\logo-signup-signin.png" alt=""> </a>    
-  </tr>
+  
 </div>
   
 
@@ -32,7 +32,7 @@
     <input type="text" name="email" placeholder="Email" />
     <input type="password" name="pass" placeholder="Password" />
       <br>    <br>
-    <input type="submit" name="submit" class="submit action-button" style="width:200px;" value="Submit" />
+    <input type="submit" name="submit" class="submit action-button" style="width:200px;" value="Submit" runat="server" id="submit-button" />
 
   </fieldset>
 </form>
