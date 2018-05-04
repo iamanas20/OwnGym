@@ -24,11 +24,10 @@
             </ul>
             <ul class="header-button-section">
               <li > <a href="#" class="header-login">Login</a> </li>
-              <li > <a href="#" class="header-signin">Sign in</a> </li>
+              <li > <a href="Sign Up.aspx" class="header-signin">Sign in</a> </li>
             </ul>
           </div>
         </nav>
-
       <br>
       <br>
       <br>
@@ -247,7 +246,7 @@ weight goals.</pre>
       <div class="workout-plan-title">
         <h1>Choose your workout plan</h1>
       </div>
-      <br><br><br>
+      <br><br><br><d
     <center>
       <div class="workout-plan-cards">
         <ul>
