@@ -42,5 +42,10 @@ namespace OwnGymWebApp
                     DebugPath = "~/Scripts/respond.js",
                 });
         }
+
+        internal static void RegisterBundles(object bundles)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
