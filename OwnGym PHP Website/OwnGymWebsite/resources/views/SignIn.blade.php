@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="Content/signupstyle.css">
+
+</head>
+<body>
+    <div class="header">
+        <a href="#"> <img src="Assets\logo-signup-signin.png" alt=""> </a>
+
+    </div>
+
+
+    <div class="signup-with-fb">
+
+        <a href="#" class="signup-fb">
+            Log In  with Facebook
+        </a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="">
+        <center>
+            <h3 style="text-align:center; color:gray;">Or</h3>
+        </center>
+    </div>
+
+    <!-- multistep form -->
+    <form id="msform">
+
+
+        <fieldset>
+            <h2 class="fs-title">Log in with your email</h2>
+            <input type="email" name="email" placeholder="Email" />
+            <input type="password" name="pass" placeholder="Password" />
+            <br>    <br>
+            <input type="submit" name="submit" class="submit action-button" style="width:200px;" value="Submit" runat="server" id="submit-button" />
+
+        </fieldset>
+    </form>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+
+
+
+    <script src="Scripts/signup.js"></script>
+</body>
+</html>

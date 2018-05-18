@@ -11,7 +11,7 @@ body{
 
 
 .header{
-  background: url('../Assets/background header.png');
+  background: url('../images/background header.png');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -463,7 +463,7 @@ position: absolute;
 }
 
 .activity-exercice{
-  background: url('../Assets/backgroun activoty exercices.png');
+  background: url('../images/backgroun activoty exercices.png');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -724,7 +724,7 @@ margin-left: 100px;
 
 .workout-plan-cards > ul > li[data-num="1"]
 {
-  background: url('../Assets/premuim plan.png');
+  background: url('../images/premuim plan.png');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -736,7 +736,7 @@ margin-left: 100px;
 .workout-plan-cards> ul > li[data-num="2"]
 {
 
-  background: url('../Assets/Most populer plan.png');
+  background: url('../images/Most populer plan.png');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -853,7 +853,7 @@ background-color: #ffffff;
 }
 
 .get-owngym-app {
-  background: url('../Assets/backgroun get app.png');
+  background: url('../images/backgroun get app.png');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

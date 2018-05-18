@@ -3,8 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Own Gym</title>
+<!--    <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}">-->
+    <link rel="stylesheet" type="text/css" href="{{asset('css/Site.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/Stylelandingpage.css')}}">
 
-    <link rel="stylesheet" href="Content/Stylelandingpage.css">
 
   </head>
   <body>
@@ -63,7 +66,7 @@ that we hope it  helps transform people's lives
 by empower and inspire them  to live a healthier .</p>
       </div>
       <div class="about-owngym-image">
-        <img src="Assets\about own gym image.png" alt="">
+        <img src="{{asset('images/about own gym image.png')}}" alt="">
       </div>
     </div>
     <br>
@@ -73,7 +76,7 @@ by empower and inspire them  to live a healthier .</p>
     <br>
     <div class="Choose-workout-schedule">
       <div class="image-partition-schedule">
-        <img src="Assets\workout choose.png" alt="">
+        <img src="{{asset('images/workout choose.png')}}" alt="">
       </div>
       <div class="Choose-workout-schedule-content">
         <h1 class="Choose-workout-schedule-title">Choose your workout
@@ -97,7 +100,7 @@ by empower and inspire them  to live a healthier .</p>
         <center>
         <div class="workout-features-sections">
           <ul>
-            <li class="workout-features-section" data-num="1" > <a  href="#"> <img  class="workout-features-norution" src="Assets\norution.png" alt=""> </a>
+            <li class="workout-features-section" data-num="1" > <a  href="#"> <img  class="workout-features-norution" src="{{asset('images/norution.png')}}" alt=""> </a>
 
                     <div class="workout-features-article-norution">
                       <span class="workout-features-arrow" data-num="1"></span>
@@ -111,7 +114,7 @@ your meals with the barcode reader,
 calorie estimation and shortcuts to meals.</pre>
                       </div>
             </li>
-            <li class="workout-features-section" data-num="2"  > <a  href="#"> <img  class="workout-features-gym" src="Assets\Gym.png" alt=""> </a>
+            <li class="workout-features-section" data-num="2"  > <a  href="#"> <img  class="workout-features-gym" src="{{asset('images/Gym.png')}}" alt=""> </a>
 
                     <div class="workout-features-article-gym">
                       <span class="workout-features-arrow"  data-num="2"></span>
@@ -126,7 +129,7 @@ for other to view in real time.
 </pre>
                       </div>
             </li>
-            <li  class="workout-features-section" data-num="3" > <a  href="#"> <img  class="workout-features-fat" src="Assets\fat.png" alt=""> </a>
+            <li  class="workout-features-section" data-num="3" > <a  href="#"> <img  class="workout-features-fat" src="{{asset('images/fat.png')}}" alt=""> </a>
                     <div class="">
 
                     </div>
@@ -160,7 +163,7 @@ intake or expenditure.</pre>
         <h1>Activity and exercises</h1>
       </div>
       <div class="activity-exercice-mockup">
-        <img src="Assets\phone mockup activity and exercices.png" alt="">
+        <img src="{{asset('images/phone mockup activity and exercices.png')}}" alt="">
       </div>
       <div class="activity-exercice-section">
         <div class="activity-exercice-section-Nutrition-Weight">
@@ -171,12 +174,12 @@ stay on track toward nutrition and weight
 goals.</pre>
           </div>
           <div class="activity-exercice-section-Nutrition-Weight-image" data-num="1">
-            <a href="#"> <img src="Assets\nutrition & weight.png" alt=""> </a>
+            <a href="#"> <img src="{{asset('images/nutrition & weight.png')}}" alt=""> </a>
           </div>
         </div>
 
       <div class="activity-exercice-section-Nutrition-Weight-arrow" data-num="1">
-        <img src="Assets\nutrition & weight arrow.png" alt="">
+        <img src="{{asset('images/nutrition & weight arrow.png')}}" alt="">
       </div>
       <br><br>
       <div class="activity-exercice-section-location">
@@ -189,7 +192,7 @@ workout locations that you had chosen.</pre>
           <a href="#"> <img src="Assets\workout location.png" alt=""> </a>
         </div>
         <div class="activity-exercice-section-location-arrow" data-num="1">
-          <img src="Assets\workout location arrow.png" alt="">
+          <img src="{{asset('images/workout location arrow.png')}}" alt="">
         </div>
     </div>
     <br><br><br>
@@ -202,10 +205,10 @@ objectives to keep you moving towards
 your goal .</pre>
       </div>
       <div class="activity-exercice-section-goals-image" data-num="1">
-        <a href="#"> <img src="Assets\goals.png" alt=""> </a>
+        <a href="#"> <img src="{{asset('images/goals.png')}}" alt=""> </a>
       </div>
       <div class="activity-exercice-section-goals-arrow" data-num="1">
-        <img src="Assets\goals arrow.png" alt="">
+        <img src="{{asset('images/goals arrow.png')}}" alt="">
       </div>
   </div>
   <br><br><br><br><br><br><br><br><br>
@@ -216,10 +219,10 @@ your goal .</pre>
         <pre>A variety of exercices for each muscle .</pre>
       </div>
       <div class="activity-exercice-section-exercice-image" data-num="1">
-        <a href="#"> <img src="Assets\exercices.png" alt=""> </a>
+        <a href="#"> <img src="{{asset('images/exercices.png')}}" alt=""> </a>
       </div>
       <div class="activity-exercice-section-exercice-arrow" data-num="1">
-        <img src="Assets\exercices arrow.png" alt="">
+        <img src="{{asset('images/exercices arrow.png')}}" alt="">
       </div>
   </div>
 
@@ -231,10 +234,10 @@ stay on track toward nutrition and
 weight goals.</pre>
     </div>
     <div class="activity-exercice-section-statistique-image" data-num="1">
-      <a href="#"> <img src="Assets\statistique & dashboard.png" alt=""> </a>
+      <a href="#"> <img src="{{asset('images/statistique & dashboard.png')}}" alt=""> </a>
     </div>
     <div class="activity-exercice-section-statistique-arrow" data-num="1">
-      <img src="Assets\statistique & dashboard arrow.png" alt="">
+      <img src="{{asset('images/statistique & dashboard arrow.png')}}" alt="">
     </div>
   </div>
   </div>
