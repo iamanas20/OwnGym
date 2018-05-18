@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/Stylelandingpage.css')}}">
 
 
+
   </head>
   <body>
     <div class="header">
