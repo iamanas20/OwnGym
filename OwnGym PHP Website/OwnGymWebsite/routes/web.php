@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/About', function(){
+    return view('About');
+});
+

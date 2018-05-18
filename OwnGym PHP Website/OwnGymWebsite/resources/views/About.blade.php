@@ -1,3 +1,9 @@
+@extends('template')
+
+@section('content')
+
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -8,46 +14,6 @@
     <title></title>
   </head>
   <body>
-    <div class="navbarAndTitleHousingContainer">
-
-           <div class="navbar navbar-default">
-               <div class="container">
-                   <div class="navbar-header">
-                       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                           <span class="icon-bar"></span>
-                           <span class="icon-bar"></span>
-                           <span class="icon-bar"></span>
-                       </button>
-                       <a class="navbar-brand" runat="server" href="~/"><span>Own Gym</span></a>
-                   </div>
-                   <div class="navbar-collapse collapse">
-                       <asp:LoginView runat="server" ViewStateMode="Disabled">
-                           <AnonymousTemplate>
-                               <ul class="nav navbar-nav navbar-right">
-                                   <li><a class="link" runat="server" href="~/"><span>Home</span></a></li>
-                                   <li><a class="link" runat="server" href="~/About"><span>About</span></a></li>
-                                   <li><a class="link" runat="server" href="~/Features"><span>Features</span></a></li>
-                                   <li><a class="link" runat="server" href="~/Pricing"><span>Pricing</span></a></li>
-                                   <li><a class="linkLast" runat="server" href="~/Contact"><span>Contact</span></a></li>
-                                   <li><a class="signInButton" runat="server" href="~/SignIn">
-                                       <div class="Sign_Up">Sign In</div>
-                                   </a></li>
-                                   <li><a class="signUpButton" runat="server" href="~/SignUp">
-                                       <div class="Sign_Up">Sign Up</div>
-                                   </a></li>
-                               </ul>
-                           </AnonymousTemplate>
-                           <LoggedInTemplate>
-                               <ul class="nav navbar-nav navbar-right">
-                                   <li><a runat="server" href="~/Account/Manage" title="Manage your account"></a></li>
-                                   <li>
-                                   </li>
-                               </ul>
-                           </LoggedInTemplate>
-                       </asp:LoginView>
-                   </div>
-               </div>
-           </div>
     <div class="container aboutContainer">
         <div class="row">
             <div class="col-md-6 textCol">
@@ -59,13 +25,13 @@ by empower and inspire them  to live a healthier life.
                 </p>
             </div>
             <div class="col-md-6">
-                <img src="Assets/PhoneSingle.png" class="phoneImageDiv" alt="Alternate Text" />
+                <img src="{{asset('images/PhoneSingle.png')}}" class="phoneImageDiv" alt="Alternate Text" />
             </div>
         </div>
     </div>
     <div class="container notTheFirstContainer">
         <div class="col-md-6 ">
-            <img src="Assets/PhoneWithCalendar.png" class="phoneWithCalendarImageDiv" alt="Alternate Text" />
+            <img src="{{asset('images/PhoneWithCalendar.png')}}" class="phoneWithCalendarImageDiv" alt="Alternate Text" />
         </div>
         <div class="row">
             <div class="col-md-6 textCol ourTeamTextCol">
@@ -135,3 +101,4 @@ by empower and inspire them  to live a healthier life.
     </div>
   </body>
 </html>
+@endsection

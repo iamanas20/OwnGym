@@ -16,8 +16,8 @@
         <nav class="header-nav-bar">
           <div class="header-content ">
             <ul class="header-sections">
-              <li class="Home"> <a href="#">Home</a> </li>
-              <li class="About"> <a href="#">About</a> </li>
+              <li class="Home"> <a href="/">Home</a> </li>
+              <li class="About"> <a href="/About">About</a> </li>
               <li class="Feature"> <a href="#">Feature</a> </li>
               <li class="Pricing"> <a href="#">Pricing</a> </li>
               <li class="Contact"> <a href="#">Contact</a> </li>
